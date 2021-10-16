@@ -1,3 +1,6 @@
-# hw4
+# Homework 4 - Sebastian Holguin
 
-## adding more stuff
+## Mandelbrot.py
+
+This file creates a mandelbrot fractal image. To use the python file:
+1. Test
