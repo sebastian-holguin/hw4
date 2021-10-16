@@ -27,5 +27,4 @@ mask = mandelbrot(600, 50, 500)
 
 plt.imshow(mask.T, extent=[-2, 1, -1.5, 1.5])
 plt.gray()
-plt.show()
 plt.savefig('mandelbrot.png')
