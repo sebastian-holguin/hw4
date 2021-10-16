@@ -1,6 +1,6 @@
 import numpy as np
-from numpy import newaxis
 import matplotlib.pyplot as plt
+from numpy import newaxis
 
 
 def mandelbrot(n, N_max, threshold):
@@ -16,8 +16,8 @@ def mandelbrot(n, N_max, threshold):
     return mask
 
 
-mandelbrot = mandelbrot(600, 50, 500)
+mask = mandelbrot(600, 50, 500)
 
-plt.imshow(mandelbrot.T, extent=[-2, 1, -1.5, 1.5])
+plt.imshow(mask.T, extent=[-2, 1, -1.5, 1.5])
 plt.gray()
 plt.savefig('mandelbrot.png')
